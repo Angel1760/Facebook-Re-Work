@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+/*This modifys the containers for the Friends list*/
+.leftbarTitle {
+    margin-left: 500px;
+}
+
+.leftbarFriendList{
+    padding: 0;
+    margin: 0;  
+    margin-right: auto; 
+}
+
+.leftbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.leftbarImgContainer{
+    margin-right: 10px;
+    position: center;
+}
+
+.leftbarProfilePic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: sticky;
+}
+
+.leftbarOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 60%;
+    background-color: limegreen;
+    position: center;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+
+.rightbarUsername{
+    font-weight: 500;
+}

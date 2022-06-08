@@ -1,0 +1,30 @@
+.Login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.Login > LoginIcon {
+  width: 300px;
+  background-color: #c6cacf;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.Login:hover {
+  /*2:56mins*/
+  background-color: white;
+  color: #2e91f4;
+  cursor: pointer;
+}
+.Login > div > img {
+  object-fit: contain;
+  height: 350px;
+  display: flex;
+  padding: 30px;
+  margin-bottom: -100px;
+}
+
+.Login > div {
+  display: flex;
+  flex-direction: column;
+}
